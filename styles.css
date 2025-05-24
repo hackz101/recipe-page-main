@@ -37,6 +37,7 @@
   box-sizing: border-box;
 }
 
+/*main styles*/
 body {
   background-color: var(--color-backgroud);
   font-family: var(--ff-sans-serif);
@@ -44,12 +45,6 @@ body {
   font-weight: 400;
   line-height: 150%;
   color: var(--color-desat-brown);
-}
-
-.container {
-  background-color: var(--color-white);
-  margin-top: 128px;
-  margin-bottom: 128px;
 }
 
 /*text styles*/
@@ -86,17 +81,37 @@ span {
   color: var(--color-brown);
 }
 
-ul, ol {
+/*list styling*/
+ul{
   padding: 0 1.5rem;
+}
+
+ol {
+  padding: 0 2rem;
 }
 
 li {
   padding-left: 1rem;
 }
 
-.prep-time li::marker {
+ol li {
+  padding-left: 0.5rem;
+}
+
+li::marker {
   font-weight: 600;
+  color: var(--color-brown);
+}
+
+.prep-time li::marker {
   color: var(--color-rose);
+}
+
+/*content styles*/
+.container {
+  background-color: var(--color-white);
+  margin-top: 128px;
+  margin-bottom: 128px;
 }
 
 img {
