@@ -105,6 +105,10 @@ li::marker {
   color: var(--color-brown);
 }
 
+ul li::marker {
+  font-size: 0.5rem;
+}
+
 .prep-time li::marker {
   color: var(--color-rose);
 }
@@ -130,7 +134,7 @@ img {
   max-width: 100%;
   display: block;
   border-radius: 0.75rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
 }
 
 section {
@@ -156,6 +160,20 @@ hr {
   margin-bottom: 1rem;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid var(--color-grey);
+}
 
 
 
