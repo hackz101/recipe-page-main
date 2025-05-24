@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Young Serif";
+  src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf)
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-backgroud: hsl(30, 54%, 90%);
+  --color-grey: hsl(30, 18%, 87%);
+  --color-desat-brown: hsl(30, 10%, 34%);
+  --color-charcoal: hsl(24, 5%, 18%);
+  --color-brown: hsl(14, 45%, 36%);
+  --color-rose: hsl(332, 51%, 32%);
+  --color-rose-white: hsl(330, 100%, 98%);
+
+  --ff-serif: "Young Serif", serif;
+  --ff-sans-serif: "Outfit", sans-serif;
+
+  --fs-title: 2.5rem;
+  --fs-heading: 1.75rem;
+  --fs-prep-time: 1.25rem;
+  --fs-text: 1rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-backgroud);
+  font-family: var(--ff-sans-serif);
+  font-size: var(--fs-text);
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--color-desat-brown);
+}
+
+.container {
+  background-color: var(--color-white);
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+
+img {
+  height: 400px;
+}
+
+
+
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
