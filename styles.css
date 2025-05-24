@@ -93,6 +93,7 @@ ol {
 
 li {
   padding-left: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 ol li {
@@ -142,6 +143,17 @@ hr {
   outline: none;
   height: 1px;
   background-color: var(--color-grey);
+}
+
+.prep-time {
+  background-color: var(--color-rose-white);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin-top: 2rem;
+}
+
+.prep-time-heading {
+  margin-bottom: 1rem;
 }
 
 
