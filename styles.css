@@ -1,3 +1,4 @@
+/*configs*/
 @font-face {
   font-family: "Young Serif";
   src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf)
@@ -27,6 +28,7 @@
   --fs-text: 1rem;
 }
 
+/*reset*/
 *,
 *::before,
 *::after {
@@ -50,6 +52,7 @@ body {
   margin-bottom: 128px;
 }
 
+/*text styles*/
 h1, h2 {
   font-family: var(--ff-serif);
   font-weight: 400;
@@ -81,6 +84,19 @@ span {
 [data="value"] {
   font-weight: 700;
   color: var(--color-brown);
+}
+
+ul, ol {
+  padding: 0 1.5rem;
+}
+
+li {
+  padding-left: 1rem;
+}
+
+.prep-time li::marker {
+  font-weight: 600;
+  color: var(--color-rose);
 }
 
 img {
