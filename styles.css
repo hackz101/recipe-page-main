@@ -50,6 +50,39 @@ body {
   margin-bottom: 128px;
 }
 
+h1, h2 {
+  font-family: var(--ff-serif);
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.title {
+  font-size: var(--fs-title);
+  color: var(--color-charcoal);
+}
+
+h2 {
+  font-size: var(--fs-heading);
+  color: var(--color-brown);
+}
+
+.prep-time-heading {
+  font-size: var(--fs-prep-time);
+  font-weight: 600;
+  color: var(--color-rose);
+  line-height: 100%;
+}
+
+span {
+  font-weight: 700;
+  color: var(--color-desat-brown);
+}
+
+[data="value"] {
+  font-weight: 700;
+  color: var(--color-brown);
+}
+
 img {
   height: 400px;
 }
