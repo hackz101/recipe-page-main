@@ -176,10 +176,35 @@ tr:not(:last-child) {
 }
 
 
-
+/*default footer styling*/
 .attribution {
   font-size: 11px; text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/*media query*/
+@media (max-width: 500px) {
+  .recipe-wrapper {
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .recipe {
+    padding: 0 1.75rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  img {
+    border-radius: 0;
+  }
+
+  .container {
+    margin: 0;
+  }
 }
